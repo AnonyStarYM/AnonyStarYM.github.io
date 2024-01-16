@@ -1,3 +1,31 @@
+.bilibili {
+  position: relative;
+  width: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .bilibili {
+    height: 15em;
+    max-width: 25em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .bilibili {
+    height: 17em;
+    max-width: 30em;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .bilibili {
+    height: 23em;
+    max-width: 40em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .bilibili {
+    height: 28em;
+    max-width: 50em;
+  }
+}
 .anchorjs-link {
   text-decoration: none !important;
   transition: opacity 0.2s ease-in-out;
